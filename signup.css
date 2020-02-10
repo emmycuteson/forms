@@ -29,7 +29,6 @@ body{
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    padding: 0 0 40px 0;
 }
 .start form{
     font-family: 'Nunito', sans-serif;
@@ -46,13 +45,16 @@ body{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #333333;
+    color: #ADADAD;
+    border-bottom: 2px solid #ADADAD;
+    margin-top: 45px;
+    font-style: italic;
 }
 .start form input:hover{
-    border-bottom: 1px solid rgb(243, 0, 243);
+    border-bottom: 2px solid rgb(243, 0, 243);
 }
 .start form a button{
-    margin: 40px 10px 0 0;
+    margin: 50px 10px 0 0;
     background-color: #d606d6fa;
     width: 100px;
     height: 30px;
