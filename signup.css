@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height: 720px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-image:linear-gradient(rgba(167, 0, 201, 0.95),rgba(167, 0, 201, 1)),url(invest.jpg);
+}
+.start{
+    width: 40%;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.start h1{
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: center;
+}
+.start h3{
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+.start form{
+    font-family: 'Nunito', sans-serif;
+}
+.start form p{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.start form input{
+    width: 400px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #333333;
+}
+.start form input:hover{
+    border-bottom: 1px solid rgb(243, 0, 243);
+}
+.start form a button{
+    margin: 40px 10px 0 0;
+    background-color: #d606d6fa;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.start form a button:hover{
+    background-color: #bd00bda2;
+}
+.start form a{
+    color: royalblue;
+    text-decoration: none;
+}
+.start form a:hover{
+    text-decoration: underline;
+    color: rgba(167, 0, 201, 0.95);
+}

@@ -1,0 +1,60 @@
+ body{
+     width: 100%;
+     height: 600px;
+     margin: 0;
+     padding-top: 30px;
+     font-family: 'Nunito', sans-serif;
+     background-image:linear-gradient(rgba(167, 0, 201, 0.95),rgba(167, 0, 201, 1)),url(invest.jpg);
+}
+.push{
+    width: 40%;
+    height: 300px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 40px;
+    margin: auto;
+}
+.push h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+.push form input{
+    width: 350px;
+    height: 35px;
+    border-color: rgb(182, 178, 178);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+}
+.push a button{
+    width: 350px;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #85B24E;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+.push a button:hover{
+    background-color: rgb(46, 92, 0);
+}
+.push p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.push p a{
+    color: rgb(36, 0, 194);
+    text-decoration: none;
+}
+.push p a:hover{
+    text-decoration: underline;
+}
